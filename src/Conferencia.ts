@@ -10,6 +10,7 @@ export class Conferencia {
   protected estudiantes: Estudiante[];
 
   constructor(
+
     nombreConferencia: string,
     aforo: 20,
     fechaDeInicio: string,
@@ -23,15 +24,13 @@ export class Conferencia {
     this.mentor = mentor;
     this.estudiantes = [];
   }
-
-  getMentor(): Mentor {
-    return this.mentor;
-  }
-
   getEstudiantes(): Estudiante[] {
     return this.estudiantes;
   }
 
+  getMentor(): Mentor {
+    return this.mentor;
+  }
   addEstudiantes(estudiante: Estudiante): boolean {
     if (this.estudiantes.length <= this.aforo) {
       this.estudiantes.push(estudiante);

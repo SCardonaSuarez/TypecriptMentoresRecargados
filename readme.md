@@ -40,7 +40,7 @@ fundación BeeSoftLabs, Mentor a cargo del reto Roso Peñaranda.
 
 ## Stay in touch
 
-- Autor - [Juan David Yepes](https://github.com/Thelimon)
+- Autor - [Santiago Cardona Suarez](https://github.com/santo7777)
 
 ## License
 
